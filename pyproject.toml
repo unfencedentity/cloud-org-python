@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloud-org-python"
+version = "0.1.0"
+description = "enterprise Python engineering for automation, APIs, cloud operations, DevOps tooling and AI systems"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Lucian Stoica" }]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
