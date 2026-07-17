@@ -21,3 +21,6 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.scripts]
+cloud-org = "cloud_org_python.cli:main"
